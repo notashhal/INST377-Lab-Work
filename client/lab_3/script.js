@@ -50,10 +50,7 @@ function moveToPrevSlide() {
   updateSlidePosition();
 }
 
-/*
-  These two functions have been assigned via "addEventListener"
-  to the elements accessed by the "querySelector" set to the class name on each
-*/
+
 document.querySelector('.next') // Get the appropriate element (<button class="next">)
   .addEventListener('click', () => { // set an event listener on it - when it's clicked, do this callback function
     console.log('clicked next'); // let's tell the client console we made it to this point in the script
